@@ -66037,7 +66037,7 @@ A.o1.prototype={
 S(a){var s=t.N
 return A.ai4(new A.wK(new A.Vh(),new A.ZH(A.w(s,t.z)),new A.T0(A.aA([1,"20250904-20250909",2,"20250910-20250916",3,"20250917-20250923",4,"20250924-20250930",5,"20251001-20251007",6,"20251008-20251014",7,"20251015-20251021",8,"20251022-20251028",9,"20251029-20251104",10,"20251105-20251111",11,"20251112-20251118",12,"20251119-20251125",13,"20251126-20251202",14,"20251203-20251209",15,"20251210-20251216",16,"20251217-20251223",17,"20251224-20251230",18,"20251231-20260107"],t.S,s)),1,null))}}
 A.pD.prototype={
-S(a){var s,r,q,p,o,n,m,l,k=null,j=t.d,i=A.c([A.em(B.J,A.eZ("Wall of Shame",k,B.hT,k,A.kp(k,k,B.h3,k,k,k,k,k,k,k,k,28,k,k,B.cC,k,k,!0,k,k,k,k,k,k,k,k),k,k),B.u,k,k,k,k,new A.bc(20,0,0,0),k,k,k,k),A.vq(A.c([A.em(B.J,A.a2U(B.vg,new A.a3X(a)),B.u,k,k,k,k,k,k,k,k,k),A.em(B.J,A.a2U(B.vh,new A.a3Y(a)),B.u,k,k,k,k,k,k,k,k,k)],j),B.a4,B.bY,B.aw),new A.rY(20,1,16,16,B.pe,k)],j)
+S(a){var s,r,q,p,o,n,m,l,k=null,j=t.d,i=A.c([A.em(B.J,A.eZ("Wall of Shame",k,B.hT,k,A.kp(k,k,B.h3,k,k,k,k,k,k,k,k,28,k,k,B.cC,k,k,!0,k,k,k,k,k,k,k,k),k,k),B.u,k,k,k,k,new A.bc(20,0,0,0),k,k,k,k),A.vq(A.c([A.em(B.J,A.a2U(B.vg,new A.a3X(a)),B.u,k,k,k,k,k,k,k,k,k),A.em(B.J,A.a2U(B.vh,new A.a3Y(a)),B.u,k,k,k,k,k,k,k,k,k)],j),B.a4,B.bY,B.aw),new A.rY(0,1,16,16,B.pe,k)],j)
 for(s=this.c,r=0;r<4;++r){q=s[r]
 p=A.asC(k,k,new A.nn(q.b,k,k))
 o=A.eZ("Team: "+q.a,k,k,k,k,B.aO,k)
@@ -66071,7 +66071,7 @@ r.e.qr(r.f).aX(new A.a4g(q),s)},
 ar(){this.aT()
 this.NA()},
 S(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=t.d,b=A.c([A.em(B.J,A.eZ("Meat Squad Zero Tracker",d,B.hT,d,A.kp(d,d,B.h3,d,d,d,d,d,d,d,d,28,d,d,B.cC,d,d,!0,d,d,d,d,d,d,d,d),d,d),B.u,d,d,d,d,new A.bc(20,0,0,0),d,d,d,d)],c),a=A.vq(A.c([A.em(B.J,A.a2U(B.vg,new A.a47(a4)),B.u,d,d,d,d,d,d,d,d,d),A.em(B.J,A.a2U(B.vh,new A.a48(a4)),B.u,d,d,d,d,d,d,d,d,d)],c),B.a4,B.bY,B.aw),a0=A.em(d,A.eZ("Week Number",d,d,d,d,d,d),B.u,d,d,d,d,new A.bc(20,0,20,0),d,d,d,d),a1=e.a.f,a2=e.w,a3=A.V(a2).h("aa<1,jB<j>>")
-a1=A.c([new A.H5(b,d),a,new A.rY(20,1,16,16,B.pe,d),A.vq(A.c([a0,new A.nK(A.X(new A.aa(a2,new A.a49(),a3),!0,a3.h("aq.E")),a1,new A.a4a(e),d,t.CB)],c),B.a4,B.aK,B.aw)],c)
+a1=A.c([new A.H5(b,d),a,new A.rY(0,1,16,16,B.pe,d),A.vq(A.c([a0,new A.nK(A.X(new A.aa(a2,new A.a49(),a3),!0,a3.h("aq.E")),a1,new A.a4a(e),d,t.CB)],c),B.a4,B.aK,B.aw)],c)
 if(e.f&&e.r){b=A.c([A.em(d,A.vq(A.c([A.em(B.J,A.afy(new A.nn("assets/images/scott_hanson.png",d,d),20),B.u,d,d,d,d,d,d,d,d,d),A.em(B.J,A.eZ("Witching Hour",d,d,d,A.kp(d,d,d,d,d,d,d,d,d,d,d,18,d,d,B.cC,d,d,!0,d,d,d,d,d,d,d,d),B.aO,d),B.u,d,d,d,d,new A.bc(20,0,0,0),d,d,d,d)],c),B.a4,B.bY,B.aw),B.u,d,d,d,d,new A.bc(0,0,0,20),d,d,d,d)],c)
 for(a=e.NV(),a0=a.length,s=0;s<a.length;a.length===a0||(0,A.D)(a),++s){r=a[s]
 a2=r.a
