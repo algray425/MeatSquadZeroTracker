@@ -65930,7 +65930,7 @@ A.Vh.prototype={
 iV(){var s=0,r=A.O(t.k_),q,p,o,n,m,l,k,j,i,h
 var $async$iV=A.K(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:s=3
-return A.T(A.abe(A.ed("https://api.sleeper.app/v1/league/1245652583465369600/users")),$async$iV)
+return A.T(A.abe(A.ed("https://api.sleeper.app/v1/league/1381782223732088833/users")),$async$iV)
 case 3:h=b
 if(h.b===200){p=A.w(t.N,t.JZ)
 for(o=J.aZ(t.j.a(B.aB.cH(A.ab4(A.aaj(h.e)).cH(h.w)))),n=t.qu;o.n();){m=o.gF()
@@ -65956,7 +65956,7 @@ Oo(a){var s=0,r=A.O(t.X5),q,p=this,o,n
 var $async$vr=A.K(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:o=A.c([],t.DA)
 n=B.h.j(a)
-q=p.vl().aX(new A.Vj("https://api.sleeper.app/v1/league/1245652583465369600/matchups/"+n,o),t.X5)
+q=p.vl().aX(new A.Vj("https://api.sleeper.app/v1/league/1381782223732088833/matchups/"+n,o),t.X5)
 s=1
 break
 case 1:return A.M(q,r)}})
@@ -65966,7 +65966,7 @@ $1(a){return this.NP(a)},
 NP(a){var s=0,r=A.O(t.uN),q,p=this,o,n,m,l,k,j,i
 var $async$$1=A.K(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:s=3
-return A.T(A.abe(A.ed("https://api.sleeper.app/v1/league/1245652583465369600/rosters")),$async$$1)
+return A.T(A.abe(A.ed("https://api.sleeper.app/v1/league/1381782223732088833/rosters")),$async$$1)
 case 3:i=c
 if(i.b===200){for(o=J.aZ(t.j.a(B.aB.cH(A.ab4(A.aaj(i.e)).cH(i.w)))),n=p.b;o.n();){m=o.gF()
 l=J.bh(m)
@@ -66020,7 +66020,7 @@ A.fu.prototype={}
 A.lz.prototype={}
 A.o1.prototype={
 S(a){var s=t.N
-return A.ai4(new A.wL(new A.Vh(),new A.ZH(A.w(s,t.z)),new A.T0(A.aA([1,"20250904-20250909",2,"20250910-20250916",3,"20250917-20250923",4,"20250924-20250930",5,"20251001-20251007",6,"20251008-20251014",7,"20251015-20251021",8,"20251022-20251028",9,"20251029-20251104",10,"20251105-20251111",11,"20251112-20251118",12,"20251119-20251125",13,"20251126-20251202",14,"20251203-20251209",15,"20251210-20251216",16,"20251217-20251223",17,"20251224-20251230",18,"20251231-20260107"],t.S,s)),1,null))}}
+return A.ai4(new A.wL(new A.Vh(),new A.ZH(A.w(s,t.z)),new A.T0(A.aA([1,"20260909-20260915",2,"20260916-20260922",3,"20260923-20260929",4,"20260930-20261006",5,"20261007-20261013",6,"20261014-20261020",7,"20261021-20261027",8,"20261028-20261103",9,"20261104-20261110",10,"20261111-20261117",11,"20261118-20261124",12,"20261125-20261201",13,"20261202-20261208",14,"20261209-20261215",15,"20261216-20261222",16,"20261223-20261229",17,"20261230-20270105",18,"20270106-20270112"],t.S,s)),1,null))}}
 A.pD.prototype={
 S(a){var s,r,q,p,o,n,m,l,k=null,j=t.d,i=A.c([A.e_(B.J,A.eZ("Wall of Shame",k,B.hT,k,A.kq(k,k,B.h3,k,k,k,k,k,k,k,k,28,k,k,B.cC,k,k,!0,k,k,k,k,k,k,k,k),k,k),B.t,k,k,k,k,new A.bc(20,0,0,0),k,k,k,k),A.vr(A.c([A.e_(B.J,A.a2U(B.vf,new A.a3X(a)),B.t,k,k,k,k,k,k,k,k,k),A.e_(B.J,A.a2U(B.vg,new A.a3Y(a)),B.t,k,k,k,k,k,k,k,k,k)],j),B.a4,B.bY,B.aw),new A.rZ(0,1,16,16,B.pd,k)],j)
 for(s=this.c,r=0;r<9;++r){q=s[r]
