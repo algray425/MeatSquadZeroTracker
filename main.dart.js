@@ -21122,7 +21122,7 @@ hO:function hO(a){this.a=a},
 ZH:function ZH(a){this.a=a
 this.b=!1},
 ZI:function ZI(a){this.a=a},
-T0:function T0(a){this.a=a},
+T0:function T0(){},
 Vh:function Vh(){},
 Vi:function Vi(a,b){this.a=a
 this.b=b},
@@ -65898,31 +65898,26 @@ s.b=!0},
 $S:65}
 A.T0.prototype={
 qr(a){return this.O2(a)},
-O2(a0){var s=0,r=A.O(t.tj),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
-var $async$qr=A.K(function(a1,a2){if(a1===1)return A.L(a2,r)
-while(true)switch(s){case 0:b=A.w(t.N,t.Tt)
-a=p.a
-if(!a.X(a0)){q=b
-s=1
-break}a=a.i(0,a0)
-a.toString
+O2(a){var s=0,r=A.O(t.tj),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b
+var $async$qr=A.K(function(a0,a1){if(a0===1)return A.L(a1,r)
+while(true)switch(s){case 0:c=A.w(t.N,t.Tt)
 s=3
-return A.T(A.abe(A.ed("https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates="+a)),$async$qr)
-case 3:o=a2
-if(o.b===200){for(a=J.aZ(B.aB.tt(A.ab4(A.aaj(o.e)).cH(o.w),null).i(0,"events")),n=t.s;a.n();){m=J.fA(J.fA(a.gF(),"competitions"),0)
-l=m.i(0,"competitors")
-k=A.c([],n)
-for(j=J.aZ(l);j.n();){i=J.fA(J.fA(j.gF(),"team"),"abbreviation")
-k.push(i==="WSH"?"WAS":i)}h=J.fA(J.fA(m.i(0,"status"),"type"),"completed")
-g=J.fA(m.i(0,"status"),"displayClock")
-f=J.cX(J.fA(m.i(0,"status"),"period"))
-e=k[0]
-d=k[1]
-c=new A.lz(e+" vs "+d,g,f,h)
-b.m(0,e,c)
-b.m(0,d,c)}q=b
+return A.T(A.abe(A.ed("https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?week="+B.h.j(a))),$async$qr)
+case 3:b=a1
+if(b.b===200){for(p=J.aZ(B.aB.tt(A.ab4(A.aaj(b.e)).cH(b.w),null).i(0,"events")),o=t.s;p.n();){n=J.fA(J.fA(p.gF(),"competitions"),0)
+m=n.i(0,"competitors")
+l=A.c([],o)
+for(k=J.aZ(m);k.n();){j=J.fA(J.fA(k.gF(),"team"),"abbreviation")
+l.push(j==="WSH"?"WAS":j)}i=J.fA(J.fA(n.i(0,"status"),"type"),"completed")
+h=J.fA(n.i(0,"status"),"displayClock")
+g=J.cX(J.fA(n.i(0,"status"),"period"))
+f=l[0]
+e=l[1]
+d=new A.lz(f+" vs "+e,h,g,i)
+c.m(0,f,d)
+c.m(0,e,d)}q=c
 s=1
-break}else{q=b
+break}else{q=c
 s=1
 break}case 1:return A.M(q,r)}})
 return A.N($async$qr,r)}}
@@ -66019,8 +66014,7 @@ A.dd.prototype={}
 A.fu.prototype={}
 A.lz.prototype={}
 A.o1.prototype={
-S(a){var s=t.N
-return A.ai4(new A.wL(new A.Vh(),new A.ZH(A.w(s,t.z)),new A.T0(A.aA([1,"20260909-20260915",2,"20260916-20260922",3,"20260923-20260929",4,"20260930-20261006",5,"20261007-20261013",6,"20261014-20261020",7,"20261021-20261027",8,"20261028-20261103",9,"20261104-20261110",10,"20261111-20261117",11,"20261118-20261124",12,"20261125-20261201",13,"20261202-20261208",14,"20261209-20261215",15,"20261216-20261222",16,"20261223-20261229",17,"20261230-20270105",18,"20270106-20270112"],t.S,s)),1,null))}}
+S(a){return A.ai4(new A.wL(new A.Vh(),new A.ZH(A.w(t.N,t.z)),new A.T0(),1,null))}}
 A.pD.prototype={
 S(a){var s,r,q,p,o,n,m,l,k=null,j=t.d,i=A.c([A.e_(B.J,A.eZ("Wall of Shame",k,B.hT,k,A.kq(k,k,B.h3,k,k,k,k,k,k,k,k,28,k,k,B.cC,k,k,!0,k,k,k,k,k,k,k,k),k,k),B.t,k,k,k,k,new A.bc(20,0,0,0),k,k,k,k),A.vr(A.c([A.e_(B.J,A.a2U(B.vf,new A.a3X(a)),B.t,k,k,k,k,k,k,k,k,k),A.e_(B.J,A.a2U(B.vg,new A.a3Y(a)),B.t,k,k,k,k,k,k,k,k,k)],j),B.a4,B.bY,B.aw),new A.rZ(0,1,16,16,B.pd,k)],j)
 for(s=this.c,r=0;r<9;++r){q=s[r]
